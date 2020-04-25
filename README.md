@@ -19,4 +19,31 @@ There is one more thing to add to the Introduction of Git. People often get conf
 
 ## Repository: 
     A unit of storage and change tracking that represents a directory of whose contents are tracked by Git.
+    
+## Branch
+    A version of a repository that represents the current state of the  set of files that constitute a repository. In a repo, there exists a default or main branch that represents the single source of truth.
+    
+## Master
+    It is the default or main branch. A version of the repository that is considered the single source of truth. 
+    
+## Reference
+    A Git ref or reference is a name corresponding to a commit hash. The references are stored in a file *.git/refs* directory of the repository.
+  
+## HEAD
+    A reference to the most recent commit on a branch. The most recent commit is commonly referred to as the tip of the branch.
+   
+## Working Tree
+    This refers to the section in which we view and make changes to the files in a branch. The files that are changed are then moved to a staging area once they are ready for a commit.
+    
+## Index
+    This is an area where Git holds files that have been changed, added or removed in readiness for a commit. It’s a staging area from where you commit changes.
+    
+## Commit
+    This is an entry into Git’s history that represents a change made to a set of files at a given point in time. A commit references the files that have been added to the index and update the HEAD to point to the new state of the branch.
+    
+## Merge
+    It is a process of incorporating changes from one branch to another. In Git, other branch are merged into the master branch.
+    
+    
+  
 
