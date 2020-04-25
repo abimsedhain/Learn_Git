@@ -14,3 +14,9 @@ The distributed part of the Git allows developers **clone** an entire repository
 
 There is one more thing to add to the Introduction of Git. People often get confused between **Git** and **GitHub**. All things considered Git and GitHub aren’t the same thing. GitHub is a hosting site for Git projects or repositories. There are other solutions that provide services related to Git. Some of them are **Bitbucket** and **GitLab**. GitHub and Bitbucket are cloud-based solutions, but GitLab allows you to set up this functionality in their own servers. 
 
+
+# COMMON TERMINOLOGIES
+
+## Repository: 
+    A unit of storage and change tracking that represents a directory of whose contents are tracked by Git.
+
