@@ -1,5 +1,9 @@
 # Learn Git: A Cheat Sheet for Essential Git Functions
 
+**T**here are many graphical implementations of Git, but original interactions were done via a **command line interface(CLI)**. These terminal commands are still very relevant and useful today, which is why I have created this small cheat sheet: to give beginner Git users a solid foundation of the commands they should know/be aware of.
+
+Although this information can be found elsewhere online, I often found myself trawling through documentation pages and Stack Overflow answers to find some of the most basic commands. This cheat sheet aims to consolidate this basic information into one, accessible page that can help beginners get started in the world of version control and software development.
+
 ## VERSION CONTROL
 
 Before Git, first we should know about Version Control. The system that tracks/records the changes made to the files or set of files over time so that we can be reverted back to a specific version at a later date is known as **Version Control**. Each and every modification is tracked. From addition of a single alphabet to removal of a whole section. There are many version systems but the most popular version control system is **Git**. 
