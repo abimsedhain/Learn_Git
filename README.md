@@ -55,7 +55,7 @@ There is one more thing to add to the Introduction of Git. People often get conf
     master branch.
     
         
-# Git Command-Line Interface (CLI) Commands    
+# Git Command-Line Interface Commands    
 
 ## Initial Setup
 
@@ -79,4 +79,35 @@ There is one more thing to add to the Introduction of Git. People often get conf
   - `git branch [branch-name]` : Creates a new branch at the current commit.
   - `git checkout [branch]` : Switches the branches, makes it the active branch.
   - `git merger [branch]` : Merges the specified branch to the current active branch.
+  
+## Inspection
+
+  - `git log` : Shows the commit history for the current active branch.
+  - `git log --follow [file]` : Shows the commits that changed file.
+  - `git diff [branchB]....[branchA]` : Shows the diff of branchA to branchB.
+  - `git show [SHA]` : Shows one or more objects (blobs, trees, tags and commits) in human readable form.
+  - `git blame [file]` : Shows who changed what and when in a particular file.
+    
+## Sharing
+  - `git remote -v` : Shows a list of configured remote repo's URLS.
+  - `git remote add [alias] [URL]` : Adds a Git URL as a remote alias.
+  - `git remote rm [alias]` : Removes a remote alias from the project.
+  - `git fetch [alias]` : Fetchs down all the branches from a specified remote URL.
+  - `git merge [alias]/[branch]` : Merges a remote branch into your current branch.
+  - `git push [alias] [branch]` : Pushes local branch commits to the remote repo branch.
+  - `git pull` : Fetches and merges any commit from the tracking remote branch.
+  
+## Rewrite and History
+  - `git revert` : Reverts back to a specific point to undo changes to repo's commit history.
+  - `git rebase [branch]` : Applies any commit of current branch ahead of specified one.
+  - `git reset --hard [commit]` : Clears staging area and rewrites working tree from specified commit.
+  
+## Stashing
+  - `git stash` : Saves modified and staged changes.
+  - `git stash --include-untracked` : Saves the untracked files as well.
+  - `git stash list` : Lists stack-order of stashed file changes.
+  - `git stash apply` : Resumes working on the stash at the top of our stash list while keeping stash intact.
+  - `git stash pop` : Resumes working on the stash at the top of our stash list and deletes the stash intact.
+  - `git stash drop [stash-id]` : Deletes a specific stash.
+  - `git stash clear` : Deletes all stashes.
 
