@@ -1,8 +1,6 @@
 # Learn Git: A Cheat Sheet for Essential Git Functions
 
-**T**here are many graphical implementations of Git, but original interactions were done via a **command line interface(CLI)**. These terminal commands are still very relevant and useful today, which is why I have created this small cheat sheet: to give beginner Git users a solid foundation of the commands they should know/be aware of.
-
-Although this information can be found elsewhere online, I often found myself trawling through documentation pages and Stack Overflow answers to find some of the most basic commands. This cheat sheet aims to consolidate this basic information into one, accessible page that can help beginners get started in the world of version control and software development.
+This small cheat sheet was created to give beginner Git users a solid foundation of the Git command line interface commands that they should know/be aware of. There are other resources online but this sheet's aim is to consolidate this basic information into one, accessible page that can help beginners get started in the world of version control and software development.
 
 ## Version Control
 
