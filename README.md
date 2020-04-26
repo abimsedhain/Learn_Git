@@ -54,3 +54,29 @@ There is one more thing to add to the Introduction of Git. People often get conf
     It is a process of incorporating changes from one branch to another. In Git, other branch are merged into the 
     master branch.
     
+        
+# Git Command-Line Interface (CLI) Commands    
+
+## Initial Setup
+
+ - `git init` : Initializes a existing directory as a Git Repo.
+ - `git clone [URL]` : Creates a local copy of a remote Git Repo via URL.
+ 
+ ## Staging
+ 
+  - `git status` : Shows modified files in the local, working directory.
+  - `git add [file]` : Adds a particular to next commit(stage).
+  - `git add .` : Adds all the modified files to next commit(stage).
+  - `git reset [file]` : Unstages a file while retaining the changes in local directory.
+  - `git reset --hard` : Discards all local changes to all files.
+  - `git diff` : Shows the changes to the unstaged files.
+  - `git diff --staged` : Shows the changes to staged, but uncommited files.
+  - `git commit -m [Descriptive message]` : Commits the stages content as a new commit snapshot.
+  
+## Branches
+
+  - `git branch` : Lists all the branches. An asterisk will be next the active branch.
+  - `git branch [branch-name]` : Creates a new branch at the current commit.
+  - `git checkout [branch]` : Switches the branches, makes it the active branch.
+  - `git merger [branch]` : Merges the specified branch to the current active branch.
+
