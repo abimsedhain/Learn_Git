@@ -98,4 +98,14 @@ There is one more thing to add to the Introduction of Git. People often get conf
   - `git stash pop` : Resumes working on the stash at the top of our stash list and deletes the stash intact.
   - `git stash drop [stash-id]` : Deletes a specific stash.
   - `git stash clear` : Deletes all stashes.
+  
+  
+# Resources
+
+ - [Pro Git](https://git-scm.com/book/en/v2)
+ - [Oh Shit, Git!?!](https://ohshitgit.com/)
+ - [Git for Computer Scientists](https://eagain.net/articles/git-for-computer-scientists/)
+ - [Git from the Bottom Up](https://jwiegley.github.io/git-from-the-bottom-up/)
+ - [How to explain git in simple words?](https://smusamashah.github.io/explain-git-in-simple-words)
+ - [Learn Git Branching](https://learngitbranching.js.org/)
 
