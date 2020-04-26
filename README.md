@@ -4,7 +4,7 @@
 
 Although this information can be found elsewhere online, I often found myself trawling through documentation pages and Stack Overflow answers to find some of the most basic commands. This cheat sheet aims to consolidate this basic information into one, accessible page that can help beginners get started in the world of version control and software development.
 
-## VERSION CONTROL
+## Version Control
 
 **Version Control Systems (VCSs)** are the system that tracks/records the changes made to the files or set of files over time so that we can be reverted back to a specific version at a later date. Each and every modification is tracked. From addition of a single alphabet to removal of a whole section. It tracks changes to a folder and its contents in a series of snapshots, where each snapshot encapsulates the entire state of files/folders within the top-level directory. While other VCSs exist, Git is the de facto standard of version control.  
 
@@ -17,41 +17,31 @@ The distributed part of the Git allows developers **clone** an entire repository
 There is one more thing to add to the Introduction of Git. People often get confused between **Git** and **GitHub**. All things considered Git and GitHub aren’t the same thing. GitHub is a hosting site for Git projects or repositories. There are other solutions that provide services related to Git. Some of them are **Bitbucket** and **GitLab**. GitHub and Bitbucket are cloud-based solutions, but GitLab allows you to set up this functionality in their own servers. 
 
 
-# COMMON TERMINOLOGIES
+# Common Terminologies
 
-## Repository: 
-    A unit of storage and change tracking that represents a directory of whose contents are tracked by Git.
+- Repository: A unit of storage and change tracking that represents a directory of whose contents are tracked by Git.
     
-## Branch
-    A version of a repository that represents the current state of the  set of files that constitute
+- Branch: A version of a repository that represents the current state of the set of files that constitute
     a repository. In a repo, there exists a default or main branch that represents the single source of truth.
     
-## Master
-    It is the default or main branch. A version of the repository that is considered the single source of truth. 
+- Master: It is the default or main branch. A version of the repository that is considered the single source of truth. 
     
-## Reference
-    A Git reference is a name corresponding to a commit hash(SHA-1 Hash). References are pointers to commits. 
+- Reference: A Git reference is a name corresponding to a commit hash(SHA-1 Hash). References are pointers to commits. 
     Unlike objects they are mutable.
   
-## HEAD
-    A reference to the most recent commit on a branch. The most recent commit is commonly referred to as the tip 
-    of the branch.
+- HEAD: A reference to the most recent commit on a branch. The most recent commit is commonly referred to as the tip of the branch.
    
-## Working Tree
-    This refers to the section in which we view and make changes to the files in a branch. The files that are 
+- Working Tree: This refers to the section in which we view and make changes to the files in a branch. The files that are 
     changed are then moved to a staging area once they are ready for a commit.
     
-## Index
-    This is an area where Git holds files that have been changed, added or removed in readiness for a commit.
+- Index: This is an area where Git holds files that have been changed, added or removed in readiness for a commit.
     It’s a staging area from where you commit changes.
     
-## Commit
-    This is an entry into Git’s history that represents a change made to a set of files at a given point in time. 
+- Commit: This is an entry into Git’s history that represents a change made to a set of files at a given point in time. 
     A commit references the files that have been added to the index and update the HEAD to point to the new state
     of the branch. And Commits in Git are immutable.
     
-## Merge
-    It is a process of incorporating changes from one branch to another. In Git, other branch are merged into the 
+- Merge: It is a process of incorporating changes from one branch to another. In Git, other branch are merged into the 
     master branch.
     
         
